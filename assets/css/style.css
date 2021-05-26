@@ -445,6 +445,19 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     border-radius: 0 0 50% 50%;
     transform: translateX(-50%) translateY(20px) rotate(4deg);
   }
+  #hero .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 0.9em;
+    margin-top: 3em;
+}
 }
 
 @media (max-width: 575px) {
