@@ -34,7 +34,7 @@ h6,
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #68a4c4;
+  background: rgba(48, 141, 70, 0.8);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -348,11 +348,11 @@ h6,
 }
 
 .team .member .member-info p {
-  font-style: italic;
-  font-size: 15px;
+  font-style: normal;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 26px;
-  color: #666;
+  line-height: 25px;
+  color: black;
 }
 
 .team .member:hover .social {
